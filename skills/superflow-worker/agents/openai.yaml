@@ -1,0 +1,6 @@
+interface:
+  display_name: "Superflow Worker"
+  short_description: "Implement one verified vertical slice safely"
+  default_prompt: "Use $superflow-worker to implement the assigned slice and report fresh evidence."
+policy:
+  allow_implicit_invocation: false

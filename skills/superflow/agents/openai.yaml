@@ -1,0 +1,4 @@
+interface:
+  display_name: "Superflow"
+  short_description: "Plan, build, review, and verify changes autonomously"
+  default_prompt: "Use $superflow to plan and deliver this change through the full evidence-gated workflow."

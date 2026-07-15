@@ -1,0 +1,6 @@
+interface:
+  display_name: "Superflow Review"
+  short_description: "Audit plans and diffs with cited evidence"
+  default_prompt: "Use $superflow-review to independently audit this plan or implementation diff."
+policy:
+  allow_implicit_invocation: false

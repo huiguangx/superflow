@@ -1,0 +1,6 @@
+interface:
+  display_name: "Superflow Verify"
+  short_description: "Prove behavior and requirement coverage independently"
+  default_prompt: "Use $superflow-verify to independently prove this phase meets its contract."
+policy:
+  allow_implicit_invocation: false

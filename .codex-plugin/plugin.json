@@ -1,0 +1,21 @@
+{
+  "name": "superflow",
+  "version": "0.1.0",
+  "description": "An evidence-gated software delivery harness that plans with the user, then implements, reviews, and verifies autonomously.",
+  "author": {
+    "name": "Hugo"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Superflow",
+    "shortDescription": "Evidence-gated autonomous software delivery",
+    "longDescription": "Turns a coding request into an approved implementation contract, then runs isolated implementation, review, repair, and verification loops without routine user intervention.",
+    "developerName": "Hugo",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "defaultPrompt": [
+      "Use Superflow to plan and implement this feature end to end.",
+      "Use Superflow to diagnose, fix, review, and verify this bug."
+    ]
+  }
+}
