@@ -1,6 +1,6 @@
 # Superflow
 
-Superflow is a Codex plugin for higher-assurance coding work. It turns a
+Superflow is a set of Codex skills for higher-assurance coding work. It turns a
 feature or bug request into a local workflow with planning, implementation,
 review, verification, and evidence checks.
 
@@ -12,22 +12,31 @@ Do not use the full flow for tiny UI tweaks, one-line bugs, or routine cleanup.
 
 ## Install
 
-Clone the plugin:
+Install globally for your user:
 
 ```bash
-mkdir -p ~/plugins
-cd ~/plugins
-git clone git@github.com:huiguangx/superflow.git
+npx github:huiguangx/superflow
 ```
 
-Then add or enable the plugin from Codex using the local plugin path:
+After the npm package is published, this also works:
+
+```bash
+npx superflow-skills
+```
+
+This copies the Superflow skills into:
 
 ```text
-~/plugins/superflow
+~/.agents/skills
 ```
 
-If your Codex build supports marketplace/share links, use the Codex plugin UI
-to import the same local plugin folder.
+Start a new Codex session after installing.
+
+To install into only one repo, run this from that repo:
+
+```bash
+npx github:huiguangx/superflow .agents/skills
+```
 
 ## Start
 
@@ -79,4 +88,3 @@ python3 skills/superflow/scripts/superflow_gate.py --self-test
 ```
 
 It uses only the Python standard library.
-

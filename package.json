@@ -1,0 +1,14 @@
+{
+  "name": "superflow-skills",
+  "version": "0.1.0",
+  "description": "Install Superflow Codex skills into ~/.agents/skills.",
+  "bin": {
+    "superflow-skills": "bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "skills/",
+    "README.md"
+  ],
+  "license": "MIT"
+}
